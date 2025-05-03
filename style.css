@@ -1,0 +1,150 @@
+
+/*Estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+ body{
+    background-color: #000;
+    height: 100vh;
+ }
+
+ .interface{
+    max-width: 1280px;
+    margin: 0 auto;
+ }
+
+.flex{
+    display: flex;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: rgb(106, 31, 31);
+}
+
+ /*Estilo do cabeçalho */
+ header{
+    padding: 40px 4%;
+ }
+
+ header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+ }
+header a:hover{
+    color: rgb(106, 31, 31);
+    transform: scale(1.05);
+    transition: 400ms;
+}
+
+ header nav ul{
+    list-style-type: none;
+ }
+
+ header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+ }
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(106, 31, 31);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+ }
+
+.btn-contato button:hover{
+    box-shadow: 0pxx 0px 8px rgb(216, 31, 31);
+    transform:scale(1.05);
+    transition: 400ms;
+ }
+
+ /* ESTILO DO TOPO DO SITE */
+ section.topo-do-site{
+    padding: 40px 4%;
+ }
+
+section.topo-do-site.flex{
+    align-items: center;
+    justify-content: center;
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: rgb(106, 31, 31);
+}
+
+/* Estilo das competências */
+
+section.competencias{
+    padding: 40px 4%;
+}
+
+section.competencias .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.competencias .txt-competencias{
+    color: #fff;
+}
+
+.competencias .txt-competencias h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.competencias .txt-competencias h2 span{
+    color: rgb(106, 31, 31);
+}
+
+.competencias .txt-competencias p{
+    line-height: 25px;
+    text-align: justify;
+}
+
+/*Estilo dos projetos */
+section.projetos{
+    padding: 40px 4%;
+}
+
+.projetos .projetos-box{
+    color: #fff;
+    padding: 40px 4%;
+}
+
+.projetos .projetos-box i{
+    font-size: 48px;
+    color: rgb(106, 31, 31);
+}
