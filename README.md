@@ -27,7 +27,7 @@ Criar uma página web simples, responsiva e visualmente agradável que represent
 
 ## 🛠️ Como visualizar o projeto
 
-Entre no linl: `index.html` diretamente em seu navegador.
+Entre no link:(https://d4viveras.github.io/Port-lio/) diretamente em seu navegador.
 
 ## ✍️ Autor
 
